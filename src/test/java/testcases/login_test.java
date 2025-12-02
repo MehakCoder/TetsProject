@@ -12,7 +12,7 @@ public class login_test extends BaseTest {
         Login_page loginpage = new Login_page(driver);
 
         loginpage.enterUsername(prop.getProperty("username"));
-        loginpage.enterPassword(prop.getProperty("password"));
+        loginpage.enterPassword(prop.getProperty("xyz"));
         loginpage.clickLogin();
         
 
